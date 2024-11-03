@@ -9,18 +9,22 @@ export const NavBar = () => {
   }
   return (
     <nav className='nav-bar'>
-      <NavLink
-        className={navLinkClass}
-        to='/'
-      >
-        Inicio
-      </NavLink>
-      <NavLink
-        className={navLinkClass}
-        to='/lightbulb'
-      >
-        Ampolleta
-      </NavLink>
+      <div className='nav-bar__logo'>
+        <img src='/path-to-your-icon.png' alt='Icono de la página' className='nav-bar__icon' /> 
+        <span className='nav-bar__title'>Caturros DIU</span>
+      </div>
+
+      <div className='nav-bar__links'>
+        <NavLink className={navLinkClass} to='/feria'>
+          31 Feria
+        </NavLink>
+        <NavLink className={navLinkClass} to='/historia'>
+          Historia
+        </NavLink>
+        <NavLink className={navLinkClass} to='/versiones-anteriores'>
+          Versiones Anteriores
+        </NavLink>
+      </div>
     </nav>
   )
 }
