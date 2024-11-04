@@ -1,14 +1,13 @@
 import React from 'react';
 import './NavBar.css';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 
-
-function NavBar() {
+function NavBar({ onLogoClick }) {
   return (
     <header className="nav-bar">
       
-      <Link to="/" className = "logo">
-      <img src="/logo.png" className="logo-image" />
+      <Link to="/" className="logo" onClick={onLogoClick}>
+        <img src="/logo.png" className="logo-image" alt="Logo" />
       </Link>
 
       <nav className="nav-links">
