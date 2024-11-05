@@ -11,9 +11,8 @@ function NavBar({ onLogoClick }) {
       </Link>
 
       <nav className="nav-links">
-        <Link to="/">31a Feria de Software</Link>
-        <Link to="/">Historia</Link>
-        <Link to="/">Versiones Anteriores</Link>
+        <a target='_blank'
+            rel='noreferrer' href="https://www.feriadesoftware.cl/feria/">Versiones Anteriores</a>
       </nav>
     </header>
   );

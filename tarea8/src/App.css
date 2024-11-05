@@ -14,6 +14,7 @@
 }
 
 .Image-container {
+  padding: 20px;
   flex-direction: column;
   display: flex;
   justify-content: flex-start;
