@@ -57,7 +57,9 @@ function App() {
                 <button
                   key={index}
                   onClick={() => handleButtonClick(index)}
-                  className={`App-button ${activeButton === index ? 'active' : ''}`}
+                  className={`App-button ${activeButton === index ? 'active' : ''} ${
+                    index === 0 ? 'App-button-ai' : index === 1 ? 'App-button-vr' : 'App-button-tech'
+                  }`}
                 >
                   {label}
                 </button>
@@ -81,7 +83,9 @@ function App() {
               <button
                 key={index}
                 onClick={() => handleButtonClick(index)}
-                className={`App-button ${activeButton === index ? 'active' : ''}`}
+                className={`App-button ${activeButton === index ? 'active' : ''} ${
+                  index === 0 ? 'App-button-ai' : index === 1 ? 'App-button-vr' : 'App-button-tech'
+                }`}
               >
                 {label}
               </button>

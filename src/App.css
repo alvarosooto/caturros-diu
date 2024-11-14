@@ -31,7 +31,6 @@
   font-size: 4rem;
   color: #000000;
   font-weight: 900;
-  margin-right: 22vmin;
 }
 
 .Button-group {
@@ -40,23 +39,49 @@
   gap: 10px;
 }
 
-.App-button {
+.App-button-ai {
   padding: 30px 30px;
   font-size: 1.2rem;
   cursor: pointer;
-  background-color: #000000;
+  background-color: #005f94;
   color: #ffffff;
   border-color: #000000;
   border-radius: 10px;
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
-.App-button.active {
+.App-button-vr {
+  padding: 30px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #f98100;
+  color: #ffffff;
+  border-color: #000000;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.App-button-tech {
+  padding: 30px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background-color: #d2091e;
+  color: #ffffff;
+  border-color: #000000;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+.App-button-ai.active {
   opacity: 1;
-  background-color: #2c2c2c; 
-  border-color: #2c2c2c;
-  color: #f5f5f5;
-  font-weight: bold;
+}
+
+.App-button-vr.active {
+  opacity: 1;
+}
+
+.App-button-tech.active {
+  opacity: 1;
 }
 
 .Auspician-text {
