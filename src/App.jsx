@@ -48,7 +48,7 @@ function App() {
         {isHomePage && (
           <>
             <div className="Image-container">
-              <img src="/Feria.png" className="App-image" alt="Feria" />
+              <img src="/wide2.png" className="App-image" alt="Feria" />
               <p className="App-text">Explora los temas de tu interés:</p>
             </div>
 
