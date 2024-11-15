@@ -9,8 +9,11 @@ function NavBar({ onLogoClick }) {
       <Link to="/" className="logo" onClick={onLogoClick}>
         <img src="/logo.png" className="logo-image" alt="Logo" />
       </Link>
-      <p style={{ marginLeft: '20px', fontWeight: 'bold' }}>Feria de Software UTFSM</p>
-
+      <Link to="/" className="logo" onClick={onLogoClick}>
+        <p style={{ marginLeft: '20px'}}>Feria de Software UTFSM</p>
+      </Link>
+      
+    
       <nav className="nav-links">
         <a target='_blank'
             rel='noreferrer' href="https://www.feriadesoftware.cl/feria/">Versiones Anteriores</a>
