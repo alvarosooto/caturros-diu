@@ -29,7 +29,7 @@ function Projects({ topic, topicIndex}) {
                 </div>
                 <h3 className='project-name'>{project.title}</h3>
                 <div className="project-links">
-                    <a href="#">VIDEO</a> | <a href="#">VER MÁS</a>
+                    <a href="#">PITCH</a> | <a href="#">SOBRE EL EQUIPO</a>
                 </div>
                 <p className='project-description'>{project.description}</p>
             </div>
